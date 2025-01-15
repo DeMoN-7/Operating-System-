@@ -1,0 +1,15 @@
+part 1 :
+a: ps command is used to list all the process 
+b: sleep is used for sleeping the process or we can say when we want to make process wait for some time usually used when there is chance of deadlock
+c: pause and wait used for pausing process for sometime i.e: releasing the recourse idle till resumed (sleep command do the same but don't release any resource)
+d:  fork function is used for creating the child process (here parent is the  running code )
+fork function return id(-ve value means child process not created and 0 means child process created successfully and greater than zero refers to parent process)
+e: here wait function is used while creating child process to release resources idle till created
+part 2:
+a: the code is for reading data from file (file is open in read only mode) and printing it it basically read char by char but we convert it to char array 
+
+b: code is for writing hello world in the example.txt file (file is open in write mode)
+
+c: when file is opened in write mode if the file is not present it will automatically creathe the required file (here it is newfile.txt)
+
+d: this code check whether the opened path or directory
